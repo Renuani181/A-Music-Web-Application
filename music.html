@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- Student Name:   -->
+<html lang="en">
+  <head>
+    <title>A Music Web Application</title>
+    <meta charset="utf-8"/>
+    
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+      body{
+        width: 80%;
+        margin: 0 auto 50px auto;
+        font-family: 'Roboto', sans-serif;
+      }
+      #artistBio{
+        text-align: justify;
+      }
+      .flex{
+        display: flex;
+        justify-content: space-between;
+      }
+      .left{
+        text-align: start;
+      }
+      ul{
+        list-style: none;
+      }
+      .center{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <h1>Know More About Your Music Artists</h1>
+      <form>
+        <input type="text" id="input">
+        <button id="button">Submit</button>
+      </form>
+    </div>
+      <br><br>
+      <div class="flex">
+        <div class="left">  
+          <div id="artistName">
+          </div>
+          <div id="artistUrl">
+          </div>
+          <div id="artistPublishedDate">
+          </div>
+        </div>
+        <div id="artistImage">
+        </div>
+      </div>
+      <div id="artistBio"> 
+    
+      </div>
+      <div id="topAlbums">
+    
+      </div>
+      <div id="similarArtists"> 
+    
+      </div>
+      <script type="text/javascript" src="music.js"></script>
+
+  </body>
+  </html>
+
